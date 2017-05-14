@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:fitsSystemWindows="true"
+    tools:context="com.curiositylabs.apps.smartcampus.EducationDashboard">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:id="@+id/activity_education_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <TextView
+            android:id="@+id/tvIT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvMedia"
+            android:paddingLeft="10dp"
+            android:layout_alignTop="@+id/btnInfoTech"
+            android:layout_marginTop="14dp"
+            android:text="Information Technology"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/btnExam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/btnMedia"
+            android:background="@android:color/background_light"
+            app:srcCompat="@drawable/exam" />
+
+        <ImageButton
+            android:id="@+id/btnInfoTech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/btnExam"
+            android:background="@android:color/background_light"
+            app:srcCompat="@drawable/infotech" />
+
+        <ImageButton
+            android:id="@+id/btnComputerScience"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/background_light"
+            app:srcCompat="@drawable/compsci" />
+
+        <TextView
+            android:id="@+id/tvCS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Computer Science"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvSoen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_alignStart="@+id/tvCS"
+            android:layout_alignTop="@+id/btnSoftwareEngineering"
+            android:layout_marginTop="16dp"
+            android:text="Software Engineering"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/btnAppliedScience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnSoftwareEngineering"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/background_light"
+            app:srcCompat="@drawable/appliedcs" />
+
+        <ImageButton
+            android:id="@+id/btnMedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnAppliedScience"
+            android:background="@android:color/background_light"
+            app:srcCompat="@drawable/media" />
+
+        <ImageButton
+            android:id="@+id/btnSoftwareEngineering"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnComputerScience"
+            android:background="@android:color/background_light"
+            app:srcCompat="@drawable/soen" />
+
+        <TextView
+            android:id="@+id/tvAcmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:text="Applied Computer Science"
+            android:textSize="18sp"
+            android:layout_alignTop="@+id/btnAppliedScience"
+            android:layout_alignStart="@+id/tvSoen" />
+
+        <TextView
+            android:id="@+id/tvExamNotices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exams Notices"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:layout_alignBottom="@+id/btnExam"
+            android:layout_alignStart="@+id/tvIT"
+            android:layout_marginBottom="21dp" />
+
+        <TextView
+            android:id="@+id/tvMedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Media and Communication"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:layout_alignBottom="@+id/btnMedia"
+            android:layout_alignStart="@+id/tvAcmp"
+            android:layout_marginBottom="19dp" />
+    </RelativeLayout>
+</ScrollView>

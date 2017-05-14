@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1089255380971",
+    "firebase_url": "https://smart-campus-5abe0.firebaseio.com",
+    "project_id": "smart-campus-5abe0",
+    "storage_bucket": "smart-campus-5abe0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089255380971:android:cde3039029157d55",
+        "android_client_info": {
+          "package_name": "com.curiositylabs.apps.smartcampus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089255380971-4ifh8avv1qo5k884i81sovsp468e0a8h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.curiositylabs.apps.smartcampus",
+            "certificate_hash": "F31FC930B09A341B4E7B002BCEEA7912501D0144"
+          }
+        },
+        {
+          "client_id": "1089255380971-58ofp02li5a8f9tot6932u1hf7vlus1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjhTN7iJWYIY1vPa3Un5cgZGkuDBqWWAc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089255380971-58ofp02li5a8f9tot6932u1hf7vlus1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

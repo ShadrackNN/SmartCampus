@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/download_bk"
+        android:title="@string/title_bk_download" />
+    <item
+        android:id="@+id/open_bk"
+        android:title="@string/title_bk_open" />
+    <item
+        android:id="@+id/share_bk"
+        android:title="@string/title_bk_share" />
+</menu>
