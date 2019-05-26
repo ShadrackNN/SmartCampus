@@ -26,4 +26,5 @@
     <string name="btn_reset_password">Reset Password</string>
     <string name="btn_back"><![CDATA[<< Back]]></string>
     <string name="hint_password">Password</string>
+    <string name="input">Input</string>
 </resources>
