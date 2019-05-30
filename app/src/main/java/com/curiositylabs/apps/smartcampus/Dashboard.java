@@ -26,22 +26,22 @@ public class Dashboard extends AppCompatActivity implements View.OnClickListener
         setContentView(R.layout.activity_dashboard);
 
         MobileAds.initialize(getApplicationContext(), getString(R.string.google_ad_id));
-        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdView mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
 
 
         firebaseAuth =FirebaseAuth.getInstance();
-        logOutUser = (ImageButton) findViewById(R.id.btnLogOut);
+        logOutUser = findViewById(R.id.btnLogOut);
         logOutUser.setOnClickListener(this);
-        educational = (ImageButton) findViewById(R.id.btnEducational);
+        educational = findViewById(R.id.btnEducational);
         educational.setOnClickListener(this);
-        buttonDiscussion = (ImageButton)findViewById(R.id.btnDiscussion);
+        buttonDiscussion = findViewById(R.id.btnDiscussion);
         buttonDiscussion.setOnClickListener(this);
-        buttonAboutUs = (ImageButton) findViewById(R.id.btnAboutUs);
+        buttonAboutUs = findViewById(R.id.btnAboutUs);
         buttonAboutUs.setOnClickListener(this);
-        buttonGeneral = (ImageButton) findViewById(R.id.btnGeneralNotice);
+        buttonGeneral = findViewById(R.id.btnGeneralNotice);
         buttonGeneral.setOnClickListener(this);
     }
     @Override
